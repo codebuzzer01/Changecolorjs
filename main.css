@@ -1,0 +1,21 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorBtn {
+    padding: 0.25rem 0.5rem;
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    color: burlywood;
+    background: cadetblue;
+    font-size: 0.85rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+
+}
+.colorBtn:hover{
+    background: black;
+}
